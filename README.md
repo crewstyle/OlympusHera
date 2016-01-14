@@ -1,9 +1,22 @@
-# Olympus Hera [![Build Status](https://travis-ci.org/crewstyle/OlympusHera.svg)](https://travis-ci.org/crewstyle/OlympusHera)
+# Olympus Hera [![Build Status](https://img.shields.io/travis/crewstyle/OlympusHera.svg?style=flat-square)](https://travis-ci.org/crewstyle/OlympusHera)
 
-_Olympus Hera library is a part of [Olympus framework](https://github.com/crewstyle/Olympus) for WordPress.
-It contains all jQuery scripts to make your WordPress admin panel works with the [Olympus Zeus](https://github.com/crewstyle/OlympusZeus) library._  
-[![npm version](https://badge.fury.io/js/olympus.hera.svg)](https://badge.fury.io/js/olympus.hera)
-[![GitHub version](https://badge.fury.io/gh/crewstyle%2FOlympusHera.svg)](https://badge.fury.io/gh/crewstyle%2FOlympusHera)  
+_Olympus Hera library is a part of [**Olympus framework**](https://github.com/crewstyle/Olympus) for WordPress.
+It contains all jQuery scripts to make your WordPress admin panel works with the [**Olympus Zeus**](https://github.com/crewstyle/OlympusZeus) library._  
+[![npm version](https://img.shields.io/npm/v/olympus.hera.svg?style=flat-square)](https://www.npmjs.com/package/olympus.hera) 
+[![License](https://img.shields.io/github/license/crewstyle/OlympusHera.svg?style=flat-square)](https://github.com/crewstyle/OlympusHera/blob/master/LICENSE) 
+[![GitHub version](https://img.shields.io/github/tag/crewstyle/OlympusHera.svg?style=flat-square)](https://github.com/crewstyle/OlympusHera)  
+
+---
+
+### WordPress admin panel themes
+
+The **Olympus Hera** library provides 4 WordPress admin panel themes you can set in your profile. 
+You can use them easily by installing the [**Olympus Zeus**](https://github.com/crewstyle/OlympusZeus) library in your WordPress theme.
+
+![Olympus ~ Earth](https://github.com/crewstyle/OlympusHera/raw/master/images/earth.jpeg) **Olympus ~ Earth** theme 
+![Olympus ~ Ocean](https://github.com/crewstyle/OlympusHera/raw/master/images/ocean.jpeg) **Olympus ~ Ocean** theme 
+![Olympus ~ Vulcan](https://github.com/crewstyle/OlympusHera/raw/master/images/vulcan.jpeg) **Olympus ~ Vulcan** theme 
+![Olympus ~ Wind](https://github.com/crewstyle/OlympusHera/raw/master/images/wind.jpeg) **Olympus ~ Wind** theme
 
 ---
 
@@ -23,8 +36,22 @@ npm install olympus.hera
 
 ### Use
 
-In each script folder in the `./src/` directory, a `README.md` file has been created.  
+In each script folder in the `./src/js/` directory, a `README.md` file has been created.  
 You can use all scripts independently, according to their dependencies.
+
+---
+
+### Documentation
+
+[To learn more about the Olympus Hera library, read the docs](https://olympus.readme.io/).  
+The Olympus Hera uses [ReadMe.io](https://readme.io) which was built entirely on Open Source projects.
+
+---
+
+### All we need is looooooooooooove :)
+
+[![Salt Bountysource page](https://img.shields.io/badge/Salt%20Bountysource-♥-brightgreen.svg?style=flat-square)](https://salt.bountysource.com/teams/olympus) [![Bountysource page](https://img.shields.io/badge/Bountysource-♥-brightgreen.svg?style=flat-square)](https://www.bountysource.com/teams/olympus)  
+Guys, do **not** hesitate to spread your love about the **Olympus Hera** library and the **Olympus** framework ;)
 
 ---
 

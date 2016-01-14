@@ -5,26 +5,67 @@
  * Achraf Chouk (https://github.com/crewstyle)
  */
 
-var _jq = './bower_components/jquery/dist/jquery.js';
+var _jq = './bower_components/jquery/dist/jquery.js',
+  _bow = [
+    //HandlebarsJS
+    './bower_components/handlebars/handlebars.js',
+    //Codemirror
+    './bower_components/codemirror/lib/codemirror.js',
+    './bower_components/codemirror/mode/clike/clike.js',
+    './bower_components/codemirror/mode/css/css.js',
+    './bower_components/codemirror/mode/diff/diff.js',
+    './bower_components/codemirror/mode/htmlmixed/htmlmixed.js',
+    './bower_components/codemirror/mode/javascript/javascript.js',
+    './bower_components/codemirror/mode/markdown/markdown.js',
+    './bower_components/codemirror/mode/php/php.js',
+    './bower_components/codemirror/mode/python/python.js',
+    './bower_components/codemirror/mode/ruby/ruby.js',
+    './bower_components/codemirror/mode/shell/shell.js',
+    './bower_components/codemirror/mode/sql/sql.js',
+    './bower_components/codemirror/mode/xml/xml.js',
+    './bower_components/codemirror/mode/yaml/yaml.js',
+    //Leaflet
+    './bower_components/leaflet/dist/leaflet-src.js',
+    //Pickadate
+    './bower_components/pickadate/lib/picker.js',
+    './bower_components/pickadate/lib/picker.date.js',
+    './bower_components/pickadate/lib/picker.time.js',
+    './bower_components/pickadate/lib/legacy.js',
+    //Selectize
+    './bower_components/selectize/dist/js/standalone/selectize.js'
+  ];
 
 module.exports = {
-  app: {
+  src: {
     files: {
       //main package contains all scripts
-      './dist/hera.min.js': [_jq, './src/**/*.js'],
-      './dist/standalone/hera.min.js': ['./src/**/*.js'],
+      './dist/js/hera.min.js': [_jq].concat(_bow, [
+        './src/js/**/*.js',
+        '!./src/js/OlympusHera.js',
+        './src/js/OlympusHera.js'
+      ]),
+      './dist/js/hera.components.min.js': _bow.concat([
+        './src/js/**/*.js',
+        '!./src/js/OlympusHera.js',
+        './src/js/OlympusHera.js'
+      ]),
+      './dist/js/standalone/hera.min.js': [
+        './src/js/**/*.js',
+        '!./src/js/OlympusHera.js',
+        './src/js/OlympusHera.js',
+      ],
 
       //each script
-      './dist/hera.background.min.js': [_jq, './src/background/hera.background.js'],
-      './dist/standalone/hera.background.min.js': ['./src/background/hera.background.js'],
+      './dist/js/hera.background.min.js': [_jq, './src/js/background/hera.background.js'],
+      './dist/js/standalone/hera.background.min.js': ['./src/js/background/hera.background.js'],
 
-      './dist/hera.checkall.min.js': [_jq, './src/checkall/hera.checkall.js'],
-      './dist/standalone/hera.checkall.min.js': ['./src/checkall/hera.checkall.js'],
+      './dist/js/hera.checkall.min.js': [_jq, './src/js/checkall/hera.checkall.js'],
+      './dist/js/standalone/hera.checkall.min.js': ['./src/js/checkall/hera.checkall.js'],
 
-      './dist/hera.checkit.min.js': [_jq, './src/checkit/hera.checkit.js'],
-      './dist/standalone/hera.checkit.min.js': ['./src/checkit/hera.checkit.js'],
+      './dist/js/hera.checkit.min.js': [_jq, './src/js/checkit/hera.checkit.js'],
+      './dist/js/standalone/hera.checkit.min.js': ['./src/js/checkit/hera.checkit.js'],
 
-      './dist/hera.code.min.js': [
+      './dist/js/hera.code.min.js': [
         _jq,
         './bower_components/codemirror/lib/codemirror.js',
         './bower_components/codemirror/mode/clike/clike.js',
@@ -40,66 +81,78 @@ module.exports = {
         './bower_components/codemirror/mode/sql/sql.js',
         './bower_components/codemirror/mode/xml/xml.js',
         './bower_components/codemirror/mode/yaml/yaml.js',
-        './src/code/hera.code.js'
+        './src/js/code/hera.code.js'
       ],
-      './dist/standalone/hera.code.min.js': ['./src/code/hera.code.js'],
+      './dist/js/standalone/hera.code.min.js': ['./src/js/code/hera.code.js'],
 
-      './dist/hera.color.min.js': [_jq, './src/color/hera.color.js'],
-      './dist/standalone/hera.color.min.js': ['./src/color/hera.color.js'],
+      './dist/js/hera.color.min.js': [_jq, './src/js/color/hera.color.js'],
+      './dist/js/standalone/hera.color.min.js': ['./src/js/color/hera.color.js'],
 
-      './dist/hera.date.min.js': [
+      './dist/js/hera.date.min.js': [
         _jq,
         './bower_components/pickadate/lib/picker.js',
         './bower_components/pickadate/lib/picker.date.js',
         './bower_components/pickadate/lib/picker.time.js',
         './bower_components/pickadate/lib/legacy.js',
-        './src/date/hera.date.js'
+        './src/js/date/hera.date.js'
       ],
-      './dist/standalone/hera.date.min.js': ['./src/date/hera.date.js'],
+      './dist/js/standalone/hera.date.min.js': ['./src/js/date/hera.date.js'],
 
-      './dist/hera.dragndrop.min.js': [_jq, './src/dragndrop/hera.dragndrop.js'],
-      './dist/standalone/hera.dragndrop.min.js': ['./src/dragndrop/hera.dragndrop.js'],
+      './dist/js/hera.dragndrop.min.js': [_jq, './src/js/dragndrop/hera.dragndrop.js'],
+      './dist/js/standalone/hera.dragndrop.min.js': ['./src/js/dragndrop/hera.dragndrop.js'],
 
-      './dist/hera.link.min.js': [_jq, './src/link/hera.link.js'],
-      './dist/standalone/hera.link.min.js': ['./src/link/hera.link.js'],
+      './dist/js/hera.link.min.js': [
+        _jq,
+        './bower_components/handlebars/handlebars.js',
+        './src/js/link/hera.link.js'
+      ],
+      './dist/js/standalone/hera.link.min.js': ['./src/js/link/hera.link.js'],
 
-      './dist/hera.maps.min.js': [
+      './dist/js/hera.maps.min.js': [
         _jq,
         './bower_components/leaflet/dist/leaflet-src.js',
-        './src/maps/hera.maps.js'
+        './src/js/maps/hera.maps.js'
       ],
-      './dist/standalone/hera.maps.min.js': ['./src/maps/hera.maps.js'],
+      './dist/js/standalone/hera.maps.min.js': ['./src/js/maps/hera.maps.js'],
 
-      './dist/hera.modal.min.js': [_jq, './src/modal/hera.modal.js'],
-      './dist/standalone/hera.modal.min.js': ['./src/modal/hera.modal.js'],
+      './dist/js/hera.modal.min.js': [_jq, './src/js/modal/hera.modal.js'],
+      './dist/js/standalone/hera.modal.min.js': ['./src/js/modal/hera.modal.js'],
 
-      './dist/hera.multiselect.min.js': [
+      './dist/js/hera.multiselect.min.js': [
         _jq,
         './bower_components/selectize/dist/js/standalone/selectize.js',
-        './src/multiselect/hera.multiselect.js'
+        './src/js/multiselect/hera.multiselect.js'
       ],
-      './dist/standalone/hera.multiselect.min.js': ['./src/multiselect/hera.multiselect.js'],
+      './dist/js/standalone/hera.multiselect.min.js': ['./src/js/multiselect/hera.multiselect.js'],
 
-      './dist/hera.range.min.js': [_jq, './src/range/hera.range.js'],
-      './dist/standalone/hera.range.min.js': ['./src/range/hera.range.js'],
+      './dist/js/hera.range.min.js': [_jq, './src/js/range/hera.range.js'],
+      './dist/js/standalone/hera.range.min.js': ['./src/js/range/hera.range.js'],
 
-      './dist/hera.social.min.js': [_jq, './src/social/hera.social.js'],
-      './dist/standalone/hera.social.min.js': ['./src/social/hera.social.js'],
+      './dist/js/hera.social.min.js': [
+        _jq,
+        './bower_components/handlebars/handlebars.js',
+        './src/js/social/hera.social.js'
+      ],
+      './dist/js/standalone/hera.social.min.js': ['./src/js/social/hera.social.js'],
 
-      './dist/hera.textarea.min.js': [_jq, './src/textarea/hera.textarea.js'],
-      './dist/standalone/hera.textarea.min.js': ['./src/textarea/hera.textarea.js'],
+      './dist/js/hera.textarea.min.js': [_jq, './src/js/textarea/hera.textarea.js'],
+      './dist/js/standalone/hera.textarea.min.js': ['./src/js/textarea/hera.textarea.js'],
 
-      './dist/hera.toggle.min.js': [_jq, './src/toggle/hera.toggle.js'],
-      './dist/standalone/hera.toggle.min.js': ['./src/toggle/hera.toggle.js'],
+      './dist/js/hera.toggle.min.js': [_jq, './src/js/toggle/hera.toggle.js'],
+      './dist/js/standalone/hera.toggle.min.js': ['./src/js/toggle/hera.toggle.js'],
 
-      './dist/hera.tooltip.min.js': [_jq, './src/tooltip/hera.tooltip.js'],
-      './dist/standalone/hera.tooltip.min.js': ['./src/tooltip/hera.tooltip.js'],
+      './dist/js/hera.tooltip.min.js': [_jq, './src/js/tooltip/hera.tooltip.js'],
+      './dist/js/standalone/hera.tooltip.min.js': ['./src/js/tooltip/hera.tooltip.js'],
 
-      './dist/hera.upload.min.js': [_jq, './src/upload/hera.upload.js'],
-      './dist/standalone/hera.upload.min.js': ['./src/upload/hera.upload.js'],
+      './dist/js/hera.upload.min.js': [
+        _jq,
+        './bower_components/handlebars/handlebars.js',
+        './src/js/upload/hera.upload.js'
+      ],
+      './dist/js/standalone/hera.upload.min.js': ['./src/js/upload/hera.upload.js'],
 
-      './dist/hera.youtube.min.js': [_jq, './src/youtube/hera.youtube.js'],
-      './dist/standalone/hera.youtube.min.js': ['./src/youtube/hera.youtube.js']
+      './dist/js/hera.youtube.min.js': [_jq, './src/js/youtube/hera.youtube.js'],
+      './dist/js/standalone/hera.youtube.min.js': ['./src/js/youtube/hera.youtube.js']
     }
   },
 

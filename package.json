@@ -1,8 +1,8 @@
 {
   "name": "olympus.hera",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Olympus Hera contains all jQuery scripts to make your WordPress admin panel works with the Olympus Zeus library.",
-  "main": "dist/hera.min.js",
+  "main": "dist/js/hera.min.js",
   "scripts": {
     "test": "grunt test --verbose"
   },
@@ -15,6 +15,7 @@
     "hera",
     "olympushera",
     "field",
+    "less",
     "datepicker",
     "dragndrop",
     "leaflet",
@@ -31,7 +32,11 @@
   "devDependencies": {
     "grunt": "~0.4.5",
     "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-contrib-cssmin": "^0.14.0",
+    "grunt-contrib-imagemin": "^1.0.0",
     "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-less": "^1.1.0",
     "grunt-contrib-uglify": "^0.9.1",
     "load-grunt-config": "^0.19.1",
     "time-grunt": "^1.3.0"

@@ -1,19 +1,20 @@
 {
   "name": "olympus.hera",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "homepage": "https://github.com/crewstyle/OlympusHera",
-  "description": "Olympus Hera contains all jQuery scripts to make your WordPress admin panel works with the Olympus Zeus library.",
+  "description": "Olympus Hera contains all jQuery scripts and styles to make your WordPress admin panel works with the Olympus Zeus library.",
   "authors": [
     "Achraf Chouk <achrafchouk@gmail.com>"
   ],
   "main": [
-    "dist/hera.min.js"
+    "dist/js/hera.min.js"
   ],
   "keywords": [
     "olympus",
     "hera",
     "olympushera",
     "field",
+    "less",
     "datepicker",
     "dragndrop",
     "leaflet",
@@ -35,8 +36,11 @@
   "license": "MIT",
   "dependencies": {
     "codemirror": "codemirror/CodeMirror#~4.12.0",
+    "font-awesome": "FortAwesome/Font-Awesome#~4.5.0",
+    "handlebars": "~4.0.5",
     "jquery": "~2.1.4",
     "leaflet": "leaflet/leaflet#~0.7.3",
+    "material-design-raleway-font": "git://github.com/theleagueof/raleway.git",
     "pickadate": "amsul/pickadate.js#~3.5.4",
     "selectize": "brianreavis/selectize.js#~0.12.0"
   }

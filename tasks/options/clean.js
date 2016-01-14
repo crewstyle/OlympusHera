@@ -6,7 +6,11 @@
  */
 
 module.exports = {
-  app: [
+  dist: [
     './dist/**/*'
+  ],
+
+  src: [
+    './src/css'
   ]
 };
