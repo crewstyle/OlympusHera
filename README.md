@@ -1,6 +1,6 @@
 # Olympus Hera [![Build Status](https://img.shields.io/travis/crewstyle/OlympusHera.svg?style=flat-square)](https://travis-ci.org/crewstyle/OlympusHera)
 
-_**Olympus Hera** library is a part of [**Olympus framework**](https://github.com/crewstyle/Olympus) for WordPress.
+_**Olympus Hera** library is a part of [**Olympus WordPress framework**](https://github.com/crewstyle/Olympus).
 It contains all jQuery scripts and Less styles to make your WordPress admin panel works with the [**Olympus Zeus**](https://github.com/crewstyle/OlympusZeus) library._  
 [![npm version](https://img.shields.io/npm/v/olympus.hera.svg?style=flat-square)](https://www.npmjs.com/package/olympus.hera) 
 [![License](https://img.shields.io/github/license/crewstyle/OlympusHera.svg?style=flat-square)](https://github.com/crewstyle/OlympusHera/blob/master/LICENSE) 
@@ -44,14 +44,14 @@ You can use all scripts independently, according to their dependencies.
 ### Documentation
 
 [To learn more about the **Olympus Hera** library, read the docs](https://olympus.readme.io/).  
-The Olympus Hera uses [ReadMe.io](https://readme.io) which was built entirely on Open Source projects.
+The **Olympus Hera** uses [ReadMe.io](https://readme.io) which was built entirely on Open Source projects.
 
 ---
 
 ### All we need is looooooooooooove :)
 
 [![Salt Bountysource page](https://img.shields.io/badge/Salt%20Bountysource-♥-brightgreen.svg?style=flat-square)](https://salt.bountysource.com/teams/olympus) [![Bountysource page](https://img.shields.io/badge/Bountysource-♥-brightgreen.svg?style=flat-square)](https://www.bountysource.com/teams/olympus)  
-Guys, do **not** hesitate to spread your love about the **Olympus Hera** library and the **Olympus** framework ;)
+Guys, do **not** hesitate to spread your love about the **Olympus Hera** library and the **Olympus WordPress framework** ;)
 
 ---
 
