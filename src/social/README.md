@@ -1,11 +1,14 @@
 # Hera Social
 
-## Warning
+---
+
+### Warning
 
 This Hera plugin is a part of the Olympus Hera library.
 
+---
 
-## Use
+### Use
 
 ````html
 <!-- In your <body> HTML tag -->
@@ -19,23 +22,31 @@ Not yet
 //Not yet
 ````
 
+---
 
-## Settings
+### Settings
 
 Not yet
 
+---
 
-## Dependencies
+### Dependencies
 
-jQuery 2.1.4
++ jQuery 2.1.4
++ Olympus Hera Modal
 
+---
 
-## Authors and Copyright
+### Authors and Copyright
 
-Made with ♥ by **[Achraf Chouk](http://github.com/crewstyle "Achraf Chouk")**
+**Achraf Chouk**
 
 + http://fr.linkedin.com/in/achrafchouk/
 + http://twitter.com/crewstyle
 + http://github.com/crewstyle
 
-Please, read [LICENSE](https://github.com/crewstyle/OlympusHera/blob/master/LICENSE "LICENSE") for more details.
+Please, read [LICENSE](https://github.com/crewstyle/OlympusHera/blob/master/LICENSE "LICENSE") ([MIT](http://opensource.org/licenses/MIT "MIT")) for more details.
+
+---
+
+**Built with ♥ by [Achraf Chouk](http://github.com/crewstyle "Achraf Chouk") ~ (c) since 2015.**
