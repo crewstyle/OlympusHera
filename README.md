@@ -4,7 +4,10 @@ _**Olympus Hera** library is a part of [**Olympus WordPress framework**](https:/
 It contains all jQuery scripts and Less styles to make your **WordPress** admin panel works with the [**Olympus Zeus**](https://github.com/crewstyle/OlympusZeus) library._  
 [![npm version](https://img.shields.io/npm/v/olympus.hera.svg?style=flat-square)](https://www.npmjs.com/package/olympus.hera) 
 [![License](https://img.shields.io/github/license/crewstyle/OlympusHera.svg?style=flat-square)](https://github.com/crewstyle/OlympusHera/blob/master/LICENSE) 
-[![GitHub version](https://img.shields.io/github/tag/crewstyle/OlympusHera.svg?style=flat-square)](https://github.com/crewstyle/OlympusHera)  
+[![GitHub version](https://img.shields.io/github/tag/crewstyle/OlympusHera.svg?style=flat-square)](https://github.com/crewstyle/OlympusHera) 
+~ ![For WordPress](https://img.shields.io/badge/for-WordPress-00aadc.svg?style=flat-square) 
+~ ![With GruntJS](https://img.shields.io/badge/with-GruntJS-fba919.svg?style=flat-square) 
+![With Bower](https://img.shields.io/badge/with-Bower-ffcc2f.svg?style=flat-square)  
 
 ---
 
