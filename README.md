@@ -1,6 +1,7 @@
 # Olympus Hera [![Build Status](https://travis-ci.org/crewstyle/OlympusHera.svg)](https://travis-ci.org/crewstyle/OlympusHera)
 
-_all jQuery scripts used in the [Olympus Zeus](https://github.com/crewstyle/OlympusZeus) library._  
+_Olympus Hera library is a part of [Olympus framework](https://github.com/crewstyle/Olympus) for WordPress.
+It contains all jQuery scripts to make your WordPress admin panel works with the [Olympus Zeus](https://github.com/crewstyle/OlympusZeus) library._  
 [![npm version](https://badge.fury.io/js/olympus.hera.svg)](https://badge.fury.io/js/olympus.hera)
 [![GitHub version](https://badge.fury.io/gh/crewstyle%2FOlympusHera.svg)](https://badge.fury.io/gh/crewstyle%2FOlympusHera)  
 
