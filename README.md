@@ -1,7 +1,7 @@
 # Olympus Hera [![Build Status](https://img.shields.io/travis/crewstyle/OlympusHera.svg?style=flat-square)](https://travis-ci.org/crewstyle/OlympusHera)
 
-_Olympus Hera library is a part of [**Olympus framework**](https://github.com/crewstyle/Olympus) for WordPress.
-It contains all jQuery scripts to make your WordPress admin panel works with the [**Olympus Zeus**](https://github.com/crewstyle/OlympusZeus) library._  
+_**Olympus Hera** library is a part of [**Olympus framework**](https://github.com/crewstyle/Olympus) for WordPress.
+It contains all jQuery scripts and Less styles to make your WordPress admin panel works with the [**Olympus Zeus**](https://github.com/crewstyle/OlympusZeus) library._  
 [![npm version](https://img.shields.io/npm/v/olympus.hera.svg?style=flat-square)](https://www.npmjs.com/package/olympus.hera) 
 [![License](https://img.shields.io/github/license/crewstyle/OlympusHera.svg?style=flat-square)](https://github.com/crewstyle/OlympusHera/blob/master/LICENSE) 
 [![GitHub version](https://img.shields.io/github/tag/crewstyle/OlympusHera.svg?style=flat-square)](https://github.com/crewstyle/OlympusHera)  
@@ -43,7 +43,7 @@ You can use all scripts independently, according to their dependencies.
 
 ### Documentation
 
-[To learn more about the Olympus Hera library, read the docs](https://olympus.readme.io/).  
+[To learn more about the **Olympus Hera** library, read the docs](https://olympus.readme.io/).  
 The Olympus Hera uses [ReadMe.io](https://readme.io) which was built entirely on Open Source projects.
 
 ---
