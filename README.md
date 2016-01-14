@@ -1,7 +1,7 @@
 # Olympus Hera [![Build Status](https://img.shields.io/travis/crewstyle/OlympusHera.svg?style=flat-square)](https://travis-ci.org/crewstyle/OlympusHera)
 
 _**Olympus Hera** library is a part of [**Olympus WordPress framework**](https://github.com/crewstyle/Olympus).
-It contains all jQuery scripts and Less styles to make your WordPress admin panel works with the [**Olympus Zeus**](https://github.com/crewstyle/OlympusZeus) library._  
+It contains all jQuery scripts and Less styles to make your **WordPress** admin panel works with the [**Olympus Zeus**](https://github.com/crewstyle/OlympusZeus) library._  
 [![npm version](https://img.shields.io/npm/v/olympus.hera.svg?style=flat-square)](https://www.npmjs.com/package/olympus.hera) 
 [![License](https://img.shields.io/github/license/crewstyle/OlympusHera.svg?style=flat-square)](https://github.com/crewstyle/OlympusHera/blob/master/LICENSE) 
 [![GitHub version](https://img.shields.io/github/tag/crewstyle/OlympusHera.svg?style=flat-square)](https://github.com/crewstyle/OlympusHera)  
@@ -10,8 +10,8 @@ It contains all jQuery scripts and Less styles to make your WordPress admin pane
 
 ### WordPress admin panel themes
 
-The **Olympus Hera** library provides 4 WordPress admin panel themes you can set in your profile. 
-You can use them easily by installing the [**Olympus Zeus**](https://github.com/crewstyle/OlympusZeus) library in your WordPress theme.
+The **Olympus Hera** library provides 4 **WordPress** admin panel themes you can set in your profile. 
+You can use them easily by installing the [**Olympus Zeus**](https://github.com/crewstyle/OlympusZeus) library in your **WordPress** theme.
 
 ![Olympus ~ Earth](https://raw.githubusercontent.com/crewstyle/OlympusHera/master/images/earth.jpg) **Olympus ~ Earth** theme  
 ![Olympus ~ Ocean](https://raw.githubusercontent.com/crewstyle/OlympusHera/master/images/ocean.jpg) **Olympus ~ Ocean** theme  
