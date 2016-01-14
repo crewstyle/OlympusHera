@@ -1,6 +1,6 @@
 # Olympus Hera [![Build Status](https://travis-ci.org/crewstyle/olympushera.svg)](https://travis-ci.org/crewstyle/olympushera)
 
-_all jQuery scripts used in the Olympus Zeus library._  
+_all jQuery scripts used in the [Olympus Zeus](https://github.com/crewstyle/OlympusZeus) library._  
 [![npm version](https://badge.fury.io/js/olympushera.svg)](https://badge.fury.io/js/olympushera)
 [![GitHub version](https://badge.fury.io/gh/crewstyle%2Folympushera.svg)](https://badge.fury.io/gh/crewstyle%2Folympushera)  
 
