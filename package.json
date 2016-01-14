@@ -1,7 +1,7 @@
 {
   "name": "olympus.hera",
-  "version": "1.0.0",
-  "description": "All jQuery scripts used in the Olympus Zeus library.",
+  "version": "1.0.1",
+  "description": "Olympus Hera contains all jQuery scripts to make your WordPress admin panel works with the Olympus Zeus library.",
   "main": "dist/hera.min.js",
   "scripts": {
     "test": "grunt test --verbose"
