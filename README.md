@@ -3,7 +3,6 @@
 _**Olympus Hera** library is a part of [**Olympus WordPress framework**](https://github.com/crewstyle/Olympus).
 It contains all jQuery scripts and Less styles to make your **WordPress** admin panel works with the [**Olympus Zeus**](https://github.com/crewstyle/OlympusZeus) library._  
 [![npm version](https://img.shields.io/npm/v/olympus.hera.svg?style=flat-square)](https://www.npmjs.com/package/olympus.hera) 
-[![License](https://img.shields.io/github/license/crewstyle/OlympusHera.svg?style=flat-square)](https://github.com/crewstyle/OlympusHera/blob/master/LICENSE) 
 [![GitHub version](https://img.shields.io/github/tag/crewstyle/OlympusHera.svg?style=flat-square)](https://github.com/crewstyle/OlympusHera) 
 ~ ![For WordPress](https://img.shields.io/badge/for-WordPress-00aadc.svg?style=flat-square) 
 ~ ![With GruntJS](https://img.shields.io/badge/with-GruntJS-fba919.svg?style=flat-square) 
@@ -66,7 +65,8 @@ Guys, do **not** hesitate to spread your love about the **Olympus Hera** library
 + http://twitter.com/crewstyle
 + http://github.com/crewstyle
 
-Please, read [LICENSE](https://github.com/crewstyle/OlympusHera/blob/master/LICENSE "LICENSE") ([MIT](http://opensource.org/licenses/MIT "MIT")) for more details.
+Please, read [LICENSE](https://github.com/crewstyle/OlympusHera/blob/master/LICENSE "LICENSE") for more details.  
+[![MIT](https://img.shields.io/badge/license-MIT_License-blue.svg?style=flat-square)](http://opensource.org/licenses/MIT "MIT")  
 
 ---
 
