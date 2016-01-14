@@ -44,7 +44,7 @@ module.exports = {
         '!./src/js/OlympusHera.js',
         './src/js/OlympusHera.js'
       ]),
-      './dist/js/hera.components.min.js': _bow.concat([
+      './dist/js/olz.min.js': _bow.concat([
         './src/js/**/*.js',
         '!./src/js/OlympusHera.js',
         './src/js/OlympusHera.js'
