@@ -13,10 +13,10 @@ It contains all jQuery scripts to make your WordPress admin panel works with the
 The **Olympus Hera** library provides 4 WordPress admin panel themes you can set in your profile. 
 You can use them easily by installing the [**Olympus Zeus**](https://github.com/crewstyle/OlympusZeus) library in your WordPress theme.
 
-![Olympus ~ Earth](https://github.com/crewstyle/OlympusHera/raw/master/images/earth.jpeg) **Olympus ~ Earth** theme 
-![Olympus ~ Ocean](https://github.com/crewstyle/OlympusHera/raw/master/images/ocean.jpeg) **Olympus ~ Ocean** theme 
-![Olympus ~ Vulcan](https://github.com/crewstyle/OlympusHera/raw/master/images/vulcan.jpeg) **Olympus ~ Vulcan** theme 
-![Olympus ~ Wind](https://github.com/crewstyle/OlympusHera/raw/master/images/wind.jpeg) **Olympus ~ Wind** theme
+![Olympus ~ Earth](https://raw.githubusercontent.com/crewstyle/OlympusHera/master/images/earth.jpg) **Olympus ~ Earth** theme  
+![Olympus ~ Ocean](https://raw.githubusercontent.com/crewstyle/OlympusHera/master/images/ocean.jpg) **Olympus ~ Ocean** theme  
+![Olympus ~ Vulcan](https://raw.githubusercontent.com/crewstyle/OlympusHera/master/images/vulcan.jpg) **Olympus ~ Vulcan** theme  
+![Olympus ~ Wind](https://raw.githubusercontent.com/crewstyle/OlympusHera/master/images/wind.jpg) **Olympus ~ Wind** theme
 
 ---
 
